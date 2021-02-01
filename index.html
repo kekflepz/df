@@ -4,16 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🚀🚀🚀</title>
     <link rel="stylesheet" href="hold.css">
+    <script>
+        var apeShit = false;
+        function go() {
+            let p = document.getElementById('player');
+            if (!apeShit) {
+                p.play()
+                apeShit = true;
+            } else {
+                p.pause()
+                apeShit = false;
+            }
+        }
+    </script>
 </head>
 
 <body>
-    <div id="extra"></div>
+    🔊
+    <div id="extra" onclick="javascript:go()"></div>
     <div id="main">
         <div class="hmm">✋💎🤚</div>
     </div>
     <b id="subtitle"></b>
+    <audio id="player" loop>
+        <source src="lal.mp3" type="audio/mp3" />
+        <source src="lal.opus" type="audio/ogg" />
+    </audio>
 </body>
 
 </html>
